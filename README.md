@@ -1,80 +1,49 @@
-# SkillCraft Technology – Machine Learning Internship
+# Task 1 - House Price Prediction
 
-Welcome to my Machine Learning Internship project repository at **SkillCraft Technology**.
+## Objective
 
-This repository contains the Machine Learning tasks and projects completed as part of the internship. The projects focus on applying Python, Data Analysis, Machine Learning algorithms, data preprocessing, visualization, model training, and evaluation to real-world problems.
+The objective of this project is to predict house prices using Machine Learning.
 
----
+## Algorithm Used
 
-## 👩‍💻 About the Internship
+Linear Regression
 
-**Organization:** SkillCraft Technology  
-**Domain:** Machine Learning  
-**Internship:** Machine Learning Internship  
+## Features Used
 
-During this internship, I worked on practical Machine Learning tasks designed to improve my understanding of the complete Machine Learning workflow, from data collection and preprocessing to model development, evaluation, and prediction.
+- Living Area (GrLivArea)
+- Number of Bedrooms (BedroomAbvGr)
+- Number of Bathrooms (FullBath)
 
----
+## Target Variable
 
-## 🎯 Internship Objectives
+- SalePrice
 
-The main objectives of this internship were to:
+## Workflow
 
-- Understand the fundamentals of Machine Learning.
-- Work with real-world datasets.
-- Perform data preprocessing and data cleaning.
-- Analyze and visualize datasets.
-- Select relevant features for Machine Learning models.
-- Train Machine Learning models.
-- Evaluate model performance.
-- Generate predictions using trained models.
-- Understand practical applications of Machine Learning.
-- Develop and document Machine Learning projects.
+1. Data Loading
+2. Data Exploration
+3. Data Cleaning
+4. Feature Selection
+5. Train-Test Split
+6. Linear Regression Model
+7. Model Training
+8. Prediction
+9. Model Evaluation
+10. Data Visualization
 
----
+## Evaluation Metrics
 
-## 🛠️ Technologies & Tools Used
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
+- R² Score
 
-### Programming Language
+## Technologies Used
+
 - Python
-
-### Libraries
 - Pandas
 - NumPy
 - Matplotlib
 - Seaborn
 - Scikit-learn
-
-### Development Environment
 - Google Colab
-- Jupyter Notebook
-
-### Version Control
-- Git
-- GitHub
-
----
-
-# 📂 Repository Structure
-
-```text
-SkillCraft-ML-Internship/
-│
-├── Task-1-House-Price-Prediction/
-│   ├── SCT_ML_Task1_House_Price_Prediction.ipynb
-│   ├── submission.csv
-│   └── README.md
-│
-├── Task-2/
-│   ├── project files
-│   └── README.md
-│
-├── Task-3/
-│   ├── project files
-│   └── README.md
-│
-├── Task-4/
-│   ├── project files
-│   └── README.md
-│
-└── README.md
